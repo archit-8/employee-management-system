@@ -14,7 +14,6 @@ public class EmployeeCreateRequest {
 
     @NotBlank(message="First name required")
     private  String firstName;
-
     private  String lastName;
     @Email(message = "Invalid email format")
     @NotBlank(message = "Email is required")
@@ -25,7 +24,6 @@ public class EmployeeCreateRequest {
     private  String department;
     @NotBlank(message = "Designation is required")
     private String designation;
-
     private Long managerId;
 
 

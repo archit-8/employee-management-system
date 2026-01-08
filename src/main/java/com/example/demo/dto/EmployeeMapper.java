@@ -16,7 +16,14 @@ public class EmployeeMapper {
         emp.setStatus(EmployeeStatus.ACTIVE);
         return  emp;
     }
+    public  static  void updateEnity(Employee employee, EmployeeUpdateRequest request){
+        employee.setFirstName(request.getFirstName());
+        employee.setLastName(request.getLastName());
+        employee.setPhoneNumber(request.getPhoneNumber());
+        employee.setDepartment(request.getDepartment());
+        employee.setDesignation(request.getDesignation());
 
+    }
     public static EmployeeResponse toResponse(Employee employee){
 
         EmployeeResponse response=new EmployeeResponse();
