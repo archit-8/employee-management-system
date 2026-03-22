@@ -1,22 +1,7 @@
 # Employee Management System
 
 A robust backend application for managing employee data, built with **Spring Boot** and modern Java practices. This system demonstrates clean architecture principles with separation of concerns, dependency injection, and RESTful API design.
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Configuration](#configuration)
-- [API Endpoints](#api-endpoints)
-- [Technologies Used](#technologies-used)
-- [Project Architecture](#project-architecture)
-- [Database](#database)
-- [Security](#security)
-- [Contributing](#contributing)
   
-
 ## ✨ Features
 
 - **Employee Management** - Create, read, update, and delete employee records
