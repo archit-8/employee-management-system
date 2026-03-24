@@ -1,0 +1,27 @@
+package com.example.demo.service;
+
+import com.example.demo.dto.AuthRequest;
+import com.example.demo.dto.AuthResponse;
+
+public interface AuthService {
+
+    /**
+     * Authenticate user with email and password
+     */
+    AuthResponse authenticate(AuthRequest request);
+
+    /**
+     * Refresh JWT token
+     */
+    AuthResponse refreshToken(String refreshToken);
+
+    /**
+     * Logout user
+     */
+    void logout(String token);
+
+    /**
+     * Validate JWT token
+     */
+    boolean validateToken(String token);
+}
